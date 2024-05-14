@@ -24,8 +24,8 @@ export const DEFAULT_PAKE_OPTIONS: PakeCliOptions = {
 // Just for cli development
 export const DEFAULT_DEV_PAKE_OPTIONS: PakeCliOptions & { url: string } = {
   ...DEFAULT_PAKE_OPTIONS,
-  url: 'https://weread.qq.com',
-  name: 'WeRead',
-  safeDomain: ['weread.qq.com'],
+  url: 'http://113.57.110.113:8206/oa/index.html#/login',
+  name: 'zgis-oa',
+  safeDomain: ['113.57.110.113:8206'],
   hideTitleBar: true,
 };
